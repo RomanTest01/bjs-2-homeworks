@@ -20,7 +20,7 @@
   }
  
 
-  function summElementsWorker(arr) {
+  function summElementsWorker(...arr) {
     if (!arr || arr.length === 0) {
       return 0;
     }
@@ -31,7 +31,7 @@
     return sum;
   }
 
-  function differenceMaxMinWorker(arr) {
+  function differenceMaxMinWorker(...arr) {
     if (!arr || arr.length === 0) {
       return 0;
     }
@@ -48,7 +48,7 @@
     return max - min;
   }
 
-  function differenceEvenOddWorker(arr) {
+  function differenceEvenOddWorker(...arr) {
     if (!arr || arr.length === 0) {
       return 0;
     }
@@ -64,7 +64,7 @@
     return sumEvenElement - sumOddElement;
   }
 
-  function averageEvenElementsWorker(arr) {
+  function averageEvenElementsWorker(...arr) {
     if (!arr || arr.length === 0) {
       return 0;
     }
